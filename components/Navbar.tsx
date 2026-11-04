@@ -63,13 +63,6 @@ export function Navbar({ onOrderClick, lang }: NavbarProps) {
           >
             {lang === 'en' ? 'FAQ' : 'সাধারণ জিজ্ঞাসা'}
           </a>
-          <a
-            href="/admin"
-            className="text-[#966E2E] hover:text-[#7A551E] font-medium transition-colors whitespace-nowrap hover:underline underline-offset-4 flex items-center gap-1.5"
-          >
-            <span className="w-2 h-2 rounded-full bg-[#C5A059] animate-pulse"></span>
-            {lang === 'en' ? 'Admin Panel' : 'অ্যাডমিন প্যানেল'}
-          </a>
         </nav>
 
         {/* CTA Zone */}
@@ -123,13 +116,6 @@ export function Navbar({ onOrderClick, lang }: NavbarProps) {
             className="block text-sm font-medium text-[#3A352F] py-1.5 hover:text-[#1F1C18]"
           >
             {lang === 'en' ? 'FAQ' : 'সাধারণ জিজ্ঞাসা'}
-          </a>
-          <a
-            href="/admin"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-[#8C601F] py-1.5 hover:text-[#1F1C18]"
-          >
-            ⚙️ {lang === 'en' ? 'Admin Panel (Manage Store)' : 'অ্যাডমিন প্যানেল (ম্যানেজ করুন)'}
           </a>
           <div className="pt-2">
             <button

@@ -6,7 +6,6 @@ interface FooterProps {
   lang: 'en' | 'bn';
 }
 
-import Link from 'next/link';
 import { useApp } from '@/context/AppContext';
 
 export function Footer({ lang }: FooterProps) {
@@ -37,12 +36,6 @@ export function Footer({ lang }: FooterProps) {
             <a href="#faq" className="hover:text-white transition-colors">
               {lang === 'en' ? 'FAQ' : 'সাধারণ জিজ্ঞাসা'}
             </a>
-            <Link
-              href="/admin"
-              className="text-[#C5A059] hover:text-white transition-colors font-semibold flex items-center gap-1"
-            >
-              <span>⚙️ {lang === 'en' ? 'Admin Panel' : 'অ্যাডমিন প্যানেল'}</span>
-            </Link>
           </nav>
 
           {/* Social Icons */}
