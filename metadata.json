@@ -1,0 +1,6 @@
+{
+  "name": "Burka Bazaar - Modest & Elegant Islamic Wear",
+  "description": "A graceful modest look designed for your everyday moments. Order premium abayas, burkas, and modest fashion with fast delivery across Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
